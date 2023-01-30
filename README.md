@@ -1,12 +1,12 @@
-# Redux React Modül Projesi: CRUD Film
+# Redux React Modül Projesi: Filmler
 
-Bugün, redux felsefesini gördünüz ve redux çalışmayı (store oluşturmayı, action oluşturucu fonksiyonları, bir actionu dispatch etmeyi, reducer yaratmayı ve store içerisindeki verileri sayfada görüntülemeyi) öğrendiniz.
+Bugün, redux felsefesini gördünüz ve redux ile çalışmayı (store oluşturmayı, action oluşturucu fonksiyonları, bir actionu dispatch etmeyi, reducer yaratmayı ve store içerisindeki verileri sayfada görüntülemeyi) öğrendiniz.
 
 ## Giriş
 
-Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalışacak, iki farklı reducer ile işlem yapacaksınız. Hem mevcut tüm state ve action creator tanımlarını kullanacak, hem de tüm reducer/redux pairing'lerini sıfırdan oluşturacaksınız.
+Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalışacak, iki farklı reducer ile işlem yapacaksınız. Hem mevcut tüm state ve action oluşturucuları kullanacak, hem de sıfırdan reducer/redux pairing'leri oluşturacaksınız.
 
-![Film DB örneği](proje-örneği.gif)
+![Film DB örneği](proje-demo.mov)
 
 **_Görevlerinizi tek tek tamamladığınızdan ve ilerlemeden önce her bir görevi test ettiğinizden emin olun.._**
 
