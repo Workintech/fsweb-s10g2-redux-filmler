@@ -2,6 +2,7 @@ import React from 'react';
 
 import MovieListItem from './MovieListItem';
 import MovieFooter from './MovieFooter';
+import { connect } from "react-redux";
 
 const MovieList = (props) => {
   const movies = [];

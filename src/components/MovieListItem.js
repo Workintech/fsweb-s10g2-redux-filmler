@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { connect } from "react-redux";
 
 const MovieListItem = (props) => {
   const { id, title, director, genre, metascore } = props.movie;
