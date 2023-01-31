@@ -14,11 +14,11 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayın.
-- [ ] Klonlayın
-- [ ] Ana dizine gidin
-- [ ] `npm install`
-- [ ] `npm start`
+- [+] Forklayın.
+- [+] Klonlayın
+- [+] Ana dizine gidin
+- [+ ] `npm install`
+- [+ ] `npm start`
 
 ### Görev 2: Proje Gereksinimleri
 
@@ -26,13 +26,13 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 > _DOM ve film reducer fonksiyonu sizin için hazırlandı, ancak onu redux'a bağlamak size bırakıldı._
 
-- [ ] index.js içinde, bir redux store'u yaratmak için `createStore` yöntemini ve bunu App componentınızda kullanmak için `Provider` bileşenini kullanın.
+- [ +] index.js içinde, bir redux store'u yaratmak için `createStore` yöntemini ve bunu App componentınızda kullanmak için `Provider` bileşenini kullanın.
 
 #### Film reducerını bağlamak
 
 > _Reducers klasörü içinde movieReducers dosyası var. Burada state halihazırda tanımlı ve bazı başlangıç verileri girilmiş. Burdaki initial state'i reducerımıza bağlayalım._
 
-- [ ] ** movieReducer.js içinde, statein başlangıç değerini initialState olarak atadığımızdan emin olun.** Tüm filmleri burada import edip başlangıç statei olarak store'a koyduğumuza dikkat edin.
+- [+ ] ** movieReducer.js içinde, statein başlangıç değerini initialState olarak atadığımızdan emin olun.** Tüm filmleri burada import edip başlangıç statei olarak store'a koyduğumuza dikkat edin.
 
 - [ ] **MovieList bileşeni, tüm filmlerimizi ekrana yazdırır.**
       MovieList componentı içerisinde tüm filmleri göstermek için store'a erişip `movies` değerini kullanmalıyız. `react-redux` içerisinden `useSelector` hookunu kullanarak `movies` değerine erişin.
