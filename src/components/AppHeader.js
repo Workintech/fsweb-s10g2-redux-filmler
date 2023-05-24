@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const MovieHeader = (props) => {
+const AppHeader = (props) => {
   const appTitle = "";
   const displayFavorites = true;
 
@@ -22,4 +22,4 @@ const MovieHeader = (props) => {
   );
 }
 
-export default MovieHeader;
+export default AppHeader;

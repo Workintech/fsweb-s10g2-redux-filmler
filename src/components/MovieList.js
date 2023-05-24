@@ -1,7 +1,7 @@
 import React from 'react';
 
 import MovieListItem from './MovieListItem';
-import MovieFooter from './MovieFooter';
+import MovieListFooter from './MovieListFooter';
 
 const MovieList = (props) => {
   const movies = [];
@@ -28,7 +28,7 @@ const MovieList = (props) => {
         </table>
       </div>
 
-      <MovieFooter totalMovies={movies.length} />
+      <MovieListFooter totalMovies={movies.length} />
     </div>
   );
 }

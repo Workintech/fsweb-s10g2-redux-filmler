@@ -5,7 +5,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import MovieList from './components/MovieList';
 import Movie from './components/Movie';
 
-import MovieHeader from './components/MovieHeader';
+import AppHeader from './components/AppHeader';
 
 import AddMovieForm from './components/AddMovieForm';
 import FavoriteMovieList from './components/FavoriteMovieList';
@@ -20,7 +20,7 @@ const App = props => {
       </nav>
 
       <div className="max-w-4xl mx-auto px-3 pb-4">
-        <MovieHeader />
+        <AppHeader />
         <div className="flex flex-col sm:flex-row gap-4">
           {displayFavorites && <FavoriteMovieList />}
 

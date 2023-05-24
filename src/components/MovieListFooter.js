@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MovieFooter = (props) => {
+const MovieListFooter = (props) => {
   const { totalMovies } = props;
 
   return (
@@ -10,4 +10,4 @@ const MovieFooter = (props) => {
   );
 }
 
-export default MovieFooter;
+export default MovieListFooter;
