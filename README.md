@@ -8,12 +8,6 @@ Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalı�
 
 ![Film DB örneği](./proje-demo.mov)
 
-https://github.com/Workintech/fsweb-s10g2-redux-filmler/raw/main/proje-demo.mov
-
-<video width="320" height="240" controls>
-  <source src="./proje-demo.mov" type="video/mov">
-</video>
-
 **_Görevlerinizi tek tek tamamladığınızdan ve ilerlemeden önce her bir görevi test ettiğinizden emin olun.._**
 
 ## Talimatlar
