@@ -6,7 +6,7 @@ Bugün, redux felsefesini gördünüz ve redux ile çalışmayı (store oluştur
 
 Bu projede, küçük bir film veritabanı içeren bir web uygulamasında çalışacak, iki farklı reducer ile işlem yapacaksınız. Hem mevcut tüm state ve action oluşturucuları kullanacak, hem de sıfırdan reducer/redux pairing'leri oluşturacaksınız.
 
-![Film DB örneği](proje-demo.mov)
+![Film DB örneği](./proje-demo.mov)
 
 **_Görevlerinizi tek tek tamamladığınızdan ve ilerlemeden önce her bir görevi test ettiğinizden emin olun.._**
 
