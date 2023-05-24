@@ -6,7 +6,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 
-import { createStore } from 'redux';
+import { legacy_createStore as createStore } from 'redux';
 import { Provider } from 'react-redux';
 import reducer from './reducers';
 
